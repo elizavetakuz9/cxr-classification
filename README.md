@@ -2,7 +2,8 @@
 
 This project compares lightweight deep learning architectures for multi-label classification of chest X-rays from the **ChestMNIST** dataset.
 
-The goal is to evaluate how CNNs, attention mechanisms, Vision Transformers, and graph neural networks perform under the same resource-constrained setup. All models are trained from scratch on `64 × 64` grayscale images and predict 14 thoracic findings. :contentReference[oaicite:0]{index=0}
+The goal is to evaluate how CNNs, attention mechanisms, Vision Transformers, and graph neural networks perform under the same resource-constrained setup. All models are trained from scratch on `64 × 64` grayscale images and predict 14 thoracic findings.<img width="1162" height="886" alt="exmpl" src="https://github.com/user-attachments/assets/a53de367-c046-4912-8ade-2cbb7db0eecc" />
+
 
 ## Models
 
@@ -44,6 +45,3 @@ The full methodology, architecture descriptions, experiments, and results are av
 ├── cxr-report.pdf
 └── README.md
 
-├── project_code.ipynb
-├── Kuzovkova.pdf
-└── README.md
